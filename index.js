@@ -12,6 +12,10 @@ const app = express()
 
 app.use(express.json())
 
+app.get('/', (req, res) => {
+  res.json({ message: 'Hello, Welcome to Educase India' })
+})
+
 app.use('/api', schoolRoutes)
 
 app.use(globalErrorHandler)
