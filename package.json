@@ -1,0 +1,28 @@
+{
+  "name": "educase-backend",
+  "version": "1.0.0",
+  "description": "assignment for nodejs with mysql",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiyazN0921/educase-inda-Node-Sql.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Mysql",
+    "ExpressJs"
+  ],
+  "author": "Riyaz Nadaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiyazN0921/educase-inda-Node-Sql/issues"
+  },
+  "homepage": "https://github.com/RiyazN0921/educase-inda-Node-Sql#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7",
+    "uuid": "^11.1.0"
+  }
+}
